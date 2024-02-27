@@ -1,0 +1,153 @@
+body{
+    font-family: 'Opens Sans', Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    color: #555;
+    background-color: #D2D2D2;
+}
+h1, h2{
+    color: #111;
+}
+
+
+.top-bar{
+    background-color:#333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+    padding: 20px;
+    border-bottom: 5px solid #fd8a24;
+
+}
+.top-bar a{
+    color: white;
+    margin: 10px;
+}
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+
+}
+.headline{
+
+    font-size: 55px;
+    line-height: 64px;
+
+}
+
+.subtitulo{
+
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.autor{
+
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+.social-icons{
+    margin-top: 10px;
+
+}
+
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+
+
+}
+a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: 700;
+}
+
+.content{
+    max-width: 648px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+figure{
+    padding: 0;
+    margin: 0;
+}
+figure>img{
+    width: 100%;
+}
+
+.cta{
+    font-size: 20px;
+    padding: 10px;
+}
+.modalPrincipal{
+    margin-top: 70px;
+    text-align: center;
+    height: 1080px;
+}
+
+.modalInscreva{
+    margin-top: 20px;
+    text-align: center;
+    border: solid black 2px;
+    
+
+    
+}
+.modalFatos{
+    margin-top: 20px;
+}
+img{
+    width: 580px;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+footer{
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.faleConosco{
+    width: 300px;
+    border: solid #333;
+    color: black;
+    margin: 0px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.faleConosco input, .faleConosco textarea, .faleConosco select{
+    margin: 5px auto;
+    width: 100%;
+    padding: 5px 0;
+}
+.faleConosco textarea{
+    height: 100px;
+    resize: none;
+}
+.faleConosco button{
+    width: 30%;
+    margin: 0 10%;
+    margin-top: 10px;
+    background-color: #b1ccf5;
+    font-weight: bold;
+    font-size: 16px;
+}
+.topBarInicio:hover{
+    color: #555;
+}
+.topBarFatos:hover{
+    color: #555;
+}
+.topBarInscreva:hover{
+    color: #555;
+}
